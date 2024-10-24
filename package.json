@@ -1,0 +1,19 @@
+{
+  "name": "apimysqlmodelo",
+  "version": "1.0.0",
+  "description": "my first api with nodejs, express and mysql",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Andres D. Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-myconnection": "^1.0.4",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
